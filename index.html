@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+	idk
+</title>
+
+<style>
+
+#gradient1 {
+  height: 1000px;
+  background-color: black;
+  background-image: linear-gradient(to bottom, black, #8c0055);
+}
+
+#otsikko {
+	font-size: 40px;
+ 	color: black;
+	position: absolute;
+	left: 700px;
+	//text-shadow: 2px 2px 5px black;
+	animation: glow 1s ease-in-out infinite alternate;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Glow {
+  font-size: 10px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 2px #fff, 0 0 3px #fff, 0 0 4px #fe0d7d, 0 0 5px #fe0d7d, 0 0 6px #fe0d7d, 0 0 7px 
+#fe0d7d, 0 0 8px #fe0d7d;
+  }
+  
+  to {
+    text-shadow: 0 0 3px #fff, 0 0 4px #fe0d7d, 0 0 5px #fe0d7d, 0 0 6px #fe0d7d, 0 0 7px #fe0d7d, 0 0 8px #fe0d7d, 0 0 9px #fe0d7d;
+  }
+}
+
+#linkit {
+	position: absolute;
+	top: 200px;
+	left: 80px;
+	font-size : 30;
+}
+
+#linkkien_otsikko {
+	position: absolute;
+	top: 160px;
+	left: 70px;
+	font-size: 32px;
+	color: white;
+}
+
+#main {
+	position: absolute;
+	top: 300px;
+	left: 500px;
+	right: 500px;
+	bottom: 200px;
+	border: 1px black solid;
+	border-radius: 10px;
+	background: hsla(338 100% 85% / 0.51);
+}
+
+.Linkit {
+	color: 0DFE8E;
+}
+
+</style>
+
+</head>
+
+<body id="gradient1">
+
+	<div id="otsikko" class="Glow">
+	<font face="VCR OSD Mono">
+	<img src="Indie_cross_logo.png" width="500"/>	
+	</font>
+	</div>
+
+	<div id="linkkien_otsikko">
+	Characters
+	</div>
+
+	<br />
+	<div id="linkit">
+	<a href="Maze.html" target="blank" class="Linki">
+	Main group
+	</a>
+
+	</div>
+
+	<div id="main">
+	Rasmuksella on päänsärky
+	</div>
+
+</body>
+</html>
